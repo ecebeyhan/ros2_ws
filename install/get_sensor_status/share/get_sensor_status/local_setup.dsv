@@ -1,0 +1,2 @@
+source;share/get_sensor_status/environment/ament_prefix_path.sh
+source;share/get_sensor_status/environment/path.sh

@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake /root/ros2_ws/src/srvs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.220s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.222s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.313s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.375s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.406s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.416s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.498s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.500s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.564s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.584s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.630s] -- Looking for pthread.h
+[0.679s] -- Looking for pthread.h - found
+[0.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.726s] -- Found Threads: TRUE  
+[0.869s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.995s] Error parsing '/root/ros2_ws/src/srvs/package.xml':
+[0.995s] Traceback (most recent call last):
+[0.995s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.995s]     main()
+[0.995s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.995s]     raise e
+[0.995s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.995s]     package = parse_package_string(
+[0.995s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 719, in parse_package_string
+[0.997s]     export_node = _get_optional_node(root, 'export', filename)
+[0.997s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 807, in _get_optional_node
+[0.997s]     raise InvalidPackage('The manifest must not contain more than one "%s" tags' % tagname, filename)
+[0.997s] catkin_pkg.package.InvalidPackage: Error(s) in package '/root/ros2_ws/src/srvs/package.xml':
+[0.997s] The manifest must not contain more than one "export" tags
+[1.004s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.004s]   execute_process(/usr/bin/python3
+[1.004s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.004s]   /root/ros2_ws/src/srvs/package.xml
+[1.004s]   /root/ros2_ws/build/srvs/ament_cmake_core/package.cmake) returned error
+[1.004s]   code 1
+[1.004s] Call Stack (most recent call first):
+[1.004s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.004s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[1.004s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.004s] 
+[1.004s] [0m
+[1.004s] -- Configuring incomplete, errors occurred!
+[1.004s] See also "/root/ros2_ws/build/srvs/CMakeFiles/CMakeOutput.log".
+[1.010s] Invoked command in '/root/ros2_ws/build/srvs' returned '1': /usr/bin/cmake /root/ros2_ws/src/srvs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs

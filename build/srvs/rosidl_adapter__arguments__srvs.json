@@ -1,0 +1,8 @@
+{
+  "package_name": "srvs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/srvs:msg/SensorType.msg",
+    "/root/ros2_ws/src/srvs:msg/SensorStatus.msg",
+    "/root/ros2_ws/src/srvs:srv/GetSensorStatusList.srv"
+  ]
+}

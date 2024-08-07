@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (srvs) JobQueued: {'identifier': 'srvs', 'dependencies': OrderedDict()}
+[0.000171] (get_sensor_status) JobQueued: {'identifier': 'get_sensor_status', 'dependencies': OrderedDict([('srvs', '/root/ros2_ws/install/srvs')])}
+[0.000406] (srvs) JobStarted: {'identifier': 'srvs'}
+[0.006846] (srvs) JobProgress: {'identifier': 'srvs', 'progress': 'cmake'}
+[0.006879] (srvs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/srvs', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs'], 'cwd': '/root/ros2_ws/build/srvs', 'env': OrderedDict([('HOSTNAME', 'e9140ebdd48b'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/srvs/msg'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/srvs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049969] (srvs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.089410] (srvs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.094510] (srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099371] (-) TimerEvent: {}
+[0.142317] (srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.148058] (srvs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.148336] (srvs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.148682] (srvs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.151299] (srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199485] (-) TimerEvent: {}
+[0.202348] (srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.208452] (srvs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.208737] (srvs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.209191] (srvs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.211364] (srvs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299580] (-) TimerEvent: {}
+[0.300030] (srvs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.360273] (srvs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.390197] (srvs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.393482] (srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.399465] (srvs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399645] (-) TimerEvent: {}
+[0.409369] (srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.423278] (srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.479241] (srvs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.480955] (srvs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.504016] (-) TimerEvent: {}
+[0.542658] (srvs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.563992] (srvs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.601532] (srvs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.604664] (-) TimerEvent: {}
+[0.608628] (srvs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.658409] (srvs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.658689] (srvs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.704412] (srvs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.704761] (-) TimerEvent: {}
+[0.705333] (srvs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.806605] (-) TimerEvent: {}
+[0.848357] (srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.906874] (-) TimerEvent: {}
+[0.925475] (srvs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.925591] (srvs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name srvs\n'}
+[0.925647] (srvs) StderrLine: {'line': b'  --arguments-file\n'}
+[0.925685] (srvs) StderrLine: {'line': b'  /root/ros2_ws/build/srvs/rosidl_adapter__arguments__srvs.json --output-dir\n'}
+[0.925720] (srvs) StderrLine: {'line': b'  /root/ros2_ws/build/srvs/rosidl_adapter/srvs --output-file\n'}
+[0.925754] (srvs) StderrLine: {'line': b'  /root/ros2_ws/build/srvs/rosidl_adapter/srvs.idls) returned error code 1:\n'}
+[0.925789] (srvs) StderrLine: {'line': b'\n'}
+[0.925822] (srvs) StderrLine: {'line': b"  Error processing 'uint32 Sensorid' of 'srvs/SensorStatus': ''Sensorid' is\n"}
+[0.925857] (srvs) StderrLine: {'line': b'  an invalid field name.  It should have the pattern\n'}
+[0.925891] (srvs) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[0.925925] (srvs) StderrLine: {'line': b'\n'}
+[0.925959] (srvs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.925994] (srvs) StderrLine: {'line': b'\n'}
+[0.926039] (srvs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.926160] (srvs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.926277] (srvs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.926313] (srvs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.926347] (srvs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.926382] (srvs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.926417] (srvs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.926457] (srvs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.926491] (srvs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.926525] (srvs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.926558] (srvs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.926593] (srvs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.926627] (srvs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string\n'}
+[0.926664] (srvs) StderrLine: {'line': b'      fields.append(Field(\n'}
+[0.926698] (srvs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__\n'}
+[0.926731] (srvs) StderrLine: {'line': b'      raise NameError(\n'}
+[0.926765] (srvs) StderrLine: {'line': b'\n'}
+[0.926798] (srvs) StderrLine: {'line': b"  NameError: 'Sensorid' is an invalid field name.  It should have the pattern\n"}
+[0.926832] (srvs) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.926865] (srvs) StderrLine: {'line': b'\n'}
+[0.926899] (srvs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.926932] (srvs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.926966] (srvs) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[0.926999] (srvs) StderrLine: {'line': b'\n'}
+[0.927032] (srvs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.927066] (srvs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.927105] (srvs) StdoutLine: {'line': b'See also "/root/ros2_ws/build/srvs/CMakeFiles/CMakeOutput.log".\n'}
+[0.931552] (srvs) CommandEnded: {'returncode': 1}
+[0.947509] (srvs) JobEnded: {'identifier': 'srvs', 'rc': 1}
+[0.958583] (get_sensor_status) JobSkipped: {'identifier': 'get_sensor_status'}
+[0.958612] (-) EventReactorShutdown: {}

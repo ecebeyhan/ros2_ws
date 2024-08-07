@@ -1,0 +1,6 @@
+setup.py
+srvs/__init__.py
+srvs.egg-info/PKG-INFO
+srvs.egg-info/SOURCES.txt
+srvs.egg-info/dependency_links.txt
+srvs.egg-info/top_level.txt

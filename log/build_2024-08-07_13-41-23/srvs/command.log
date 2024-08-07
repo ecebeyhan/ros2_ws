@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake /root/ros2_ws/src/srvs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs
+Invoked command in '/root/ros2_ws/build/srvs' returned '0': /usr/bin/cmake /root/ros2_ws/src/srvs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs
+Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake --build /root/ros2_ws/build/srvs -- -j4 -l4
+Invoked command in '/root/ros2_ws/build/srvs' returned '0': /usr/bin/cmake --build /root/ros2_ws/build/srvs -- -j4 -l4
+Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake --install /root/ros2_ws/build/srvs
+Invoked command in '/root/ros2_ws/build/srvs' returned '0': /usr/bin/cmake --install /root/ros2_ws/build/srvs

@@ -1,0 +1,15 @@
+/root/ros2_ws/install/get_sensor_status/share/ament_index/resource_index/package_run_dependencies/get_sensor_status
+/root/ros2_ws/install/get_sensor_status/share/ament_index/resource_index/parent_prefix_path/get_sensor_status
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/environment/ament_prefix_path.sh
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/environment/ament_prefix_path.dsv
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/environment/path.sh
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/environment/path.dsv
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/local_setup.bash
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/local_setup.sh
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/local_setup.zsh
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/local_setup.dsv
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/package.dsv
+/root/ros2_ws/install/get_sensor_status/share/ament_index/resource_index/packages/get_sensor_status
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/cmake/get_sensor_statusConfig.cmake
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/cmake/get_sensor_statusConfig-version.cmake
+/root/ros2_ws/install/get_sensor_status/share/get_sensor_status/package.xml

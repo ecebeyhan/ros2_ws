@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from srvs/msg/SensorType.msg
+// generated code does not contain a copyright notice
+
+
+module srvs {
+  module msg {
+    module SensorType_Constants {
+      const uint8 UNDEFINED = 0;
+      const uint8 CAMERA = 1;
+      const uint8 MIC = 2;
+    };
+    struct SensorType {
+      uint8 sensor_type;
+    };
+  };
+};

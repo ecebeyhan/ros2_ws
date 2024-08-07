@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from srvs/msg/SensorStatus.msg
+// generated code does not contain a copyright notice
+
+#include "srvs/msg/SensorType.idl"
+
+module srvs {
+  module msg {
+    struct SensorStatus {
+      uint32 sensorid;
+
+      uint32 unitid;
+
+      string sensorname;
+
+      boolean alive;
+
+      boolean recording;
+
+      boolean streaming;
+
+      srvs::msg::SensorType sensortype;
+    };
+  };
+};
