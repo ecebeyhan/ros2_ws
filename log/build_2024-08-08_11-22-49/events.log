@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (srvs) JobQueued: {'identifier': 'srvs', 'dependencies': OrderedDict()}
+[0.000145] (get_sensor_status) JobQueued: {'identifier': 'get_sensor_status', 'dependencies': OrderedDict([('srvs', '/root/ros2_ws/install/srvs')])}
+[0.000167] (srvs) JobStarted: {'identifier': 'srvs'}
+[0.005818] (srvs) JobProgress: {'identifier': 'srvs', 'progress': 'cmake'}
+[0.006127] (srvs) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/srvs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs'], 'cwd': '/root/ros2_ws/build/srvs', 'env': OrderedDict([('HOSTNAME', 'e9140ebdd48b'), ('ROS_PACKAGE_PATH', '/root/ros2_ws/install/srvs/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/srvs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/srvs/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_ws/install/srvs/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/srvs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/srvs')]), 'shell': False}
+[0.052232] (srvs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091409] (srvs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.096533] (srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.098746] (-) TimerEvent: {}
+[0.144314] (srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.150344] (srvs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.150529] (srvs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.150755] (srvs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.153225] (srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198876] (-) TimerEvent: {}
+[0.204702] (srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.210822] (srvs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.211057] (srvs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.211442] (srvs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.213726] (srvs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298968] (-) TimerEvent: {}
+[0.302760] (srvs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.364745] (srvs) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.395670] (srvs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.399045] (-) TimerEvent: {}
+[0.399230] (srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.405633] (srvs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.415551] (srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.429690] (srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.486275] (srvs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.488124] (srvs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501634] (-) TimerEvent: {}
+[0.553013] (srvs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.574256] (srvs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.602299] (-) TimerEvent: {}
+[0.612738] (srvs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.619926] (srvs) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.670590] (srvs) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.670902] (srvs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.702403] (-) TimerEvent: {}
+[0.717578] (srvs) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.718457] (srvs) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.803519] (-) TimerEvent: {}
+[0.860375] (srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.903602] (-) TimerEvent: {}
+[1.003815] (-) TimerEvent: {}
+[1.033293] (srvs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.103939] (-) TimerEvent: {}
+[1.204202] (-) TimerEvent: {}
+[1.223842] (srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.296262] (srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304303] (-) TimerEvent: {}
+[1.307804] (srvs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.309085] (srvs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.322164] (srvs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.322256] (srvs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.322301] (srvs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.322338] (srvs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[1.332903] (srvs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.359233] (srvs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.382322] (srvs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.384234] (srvs) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.384394] (srvs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.384448] (srvs) StderrLine: {'line': b'\n'}
+[1.384489] (srvs) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.384528] (srvs) StderrLine: {'line': b'\n'}
+[1.384564] (srvs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.384821] (srvs) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/srvs\n'}
+[1.391433] (srvs) CommandEnded: {'returncode': 0}
+[1.391897] (srvs) JobProgress: {'identifier': 'srvs', 'progress': 'build'}
+[1.393067] (srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/srvs', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/srvs', 'env': OrderedDict([('HOSTNAME', 'e9140ebdd48b'), ('ROS_PACKAGE_PATH', '/root/ros2_ws/install/srvs/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/srvs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/srvs/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_ws/install/srvs/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/srvs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/srvs')]), 'shell': False}
+[1.405043] (-) TimerEvent: {}
+[1.418848] (srvs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.424404] (srvs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.429013] (srvs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_srvs\n'}
+[1.505154] (-) TimerEvent: {}
+[1.557300] (srvs) StdoutLine: {'line': b'running egg_info\n'}
+[1.557758] (srvs) StdoutLine: {'line': b'creating srvs.egg-info\n'}
+[1.557854] (srvs) StdoutLine: {'line': b'writing srvs.egg-info/PKG-INFO\n'}
+[1.557985] (srvs) StdoutLine: {'line': b'writing dependency_links to srvs.egg-info/dependency_links.txt\n'}
+[1.558058] (srvs) StdoutLine: {'line': b'writing top-level names to srvs.egg-info/top_level.txt\n'}
+[1.558322] (srvs) StdoutLine: {'line': b"writing manifest file 'srvs.egg-info/SOURCES.txt'\n"}
+[1.559338] (srvs) StdoutLine: {'line': b"reading manifest file 'srvs.egg-info/SOURCES.txt'\n"}
+[1.559726] (srvs) StdoutLine: {'line': b"writing manifest file 'srvs.egg-info/SOURCES.txt'\n"}
+[1.578836] (srvs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_srvs_egg\n'}
+[1.605250] (-) TimerEvent: {}
+[1.705587] (-) TimerEvent: {}
+[1.706651] (srvs) StdoutLine: {'line': b'[  4%] Built target srvs__cpp\n'}
+[1.712493] (srvs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.716489] (srvs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.716663] (srvs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.723364] (srvs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_generator_c.dir/rosidl_generator_c/srvs/msg/detail/sensor_type__functions.c.o\x1b[0m\n'}
+[1.763841] (srvs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_generator_c.dir/rosidl_generator_c/srvs/msg/detail/sensor_status__functions.c.o\x1b[0m\n'}
+[1.799346] (srvs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_generator_c.dir/rosidl_generator_c/srvs/srv/detail/get_sensor_status_list__functions.c.o\x1b[0m\n'}
+[1.805658] (-) TimerEvent: {}
+[1.842959] (srvs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libsrvs__rosidl_generator_c.so\x1b[0m\n'}
+[1.867424] (srvs) StdoutLine: {'line': b'[ 19%] Built target srvs__rosidl_generator_c\n'}
+[1.873500] (srvs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.905764] (-) TimerEvent: {}
+[1.936633] (srvs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srvs/msg/sensor_type__type_support.cpp.o\x1b[0m\n'}
+[1.987421] (srvs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srvs/msg/detail/sensor_type__type_support.cpp.o\x1b[0m\n'}
+[1.996185] (srvs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srvs/msg/detail/dds_fastrtps/sensor_type__type_support.cpp.o\x1b[0m\n'}
+[2.005853] (-) TimerEvent: {}
+[2.106222] (-) TimerEvent: {}
+[2.141303] (srvs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srvs/msg/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[2.182811] (srvs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srvs/msg/detail/sensor_type__type_support_c.cpp.o\x1b[0m\n'}
+[2.206362] (-) TimerEvent: {}
+[2.295156] (srvs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srvs/msg/detail/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[2.306477] (-) TimerEvent: {}
+[2.319265] (srvs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srvs/msg/detail/dds_fastrtps/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[2.353264] (srvs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srvs/srv/get_sensor_status_list__type_support.cpp.o\x1b[0m\n'}
+[2.406602] (-) TimerEvent: {}
+[2.433035] (srvs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srvs/msg/detail/sensor_status__type_support_c.cpp.o\x1b[0m\n'}
+[2.506735] (-) TimerEvent: {}
+[2.543388] (srvs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libsrvs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.569194] (srvs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srvs/srv/detail/get_sensor_status_list__type_support.cpp.o\x1b[0m\n'}
+[2.577531] (srvs) StdoutLine: {'line': b'[ 44%] Built target srvs__rosidl_typesupport_cpp\n'}
+[2.583614] (srvs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.606843] (-) TimerEvent: {}
+[2.615232] (srvs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srvs/srv/detail/dds_fastrtps/get_sensor_status_list__type_support.cpp.o\x1b[0m\n'}
+[2.685741] (srvs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srvs/srv/detail/get_sensor_status_list__type_support_c.cpp.o\x1b[0m\n'}
+[2.706954] (-) TimerEvent: {}
+[2.807225] (-) TimerEvent: {}
+[2.851856] (srvs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libsrvs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.899804] (srvs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srvs/msg/detail/sensor_type__type_support.c.o\x1b[0m\n'}
+[2.907353] (-) TimerEvent: {}
+[2.908407] (srvs) StdoutLine: {'line': b'[ 55%] Built target srvs__rosidl_typesupport_introspection_cpp\n'}
+[2.914505] (srvs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.925103] (srvs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srvs/msg/detail/sensor_status__type_support.c.o\x1b[0m\n'}
+[2.929173] (srvs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libsrvs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.936574] (srvs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libsrvs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.953655] (srvs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srvs/srv/detail/get_sensor_status_list__type_support.c.o\x1b[0m\n'}
+[2.983421] (srvs) StdoutLine: {'line': b'[ 65%] Built target srvs__rosidl_typesupport_fastrtps_c\n'}
+[2.984513] (srvs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libsrvs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.986770] (srvs) StdoutLine: {'line': b'[ 68%] Built target srvs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.002473] (srvs) StdoutLine: {'line': b'[ 68%] Built target srvs__rosidl_typesupport_introspection_c\n'}
+[3.007424] (-) TimerEvent: {}
+[3.111984] (-) TimerEvent: {}
+[3.130070] (srvs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/srvs/msg/sensor_type__type_support.cpp.o\x1b[0m\n'}
+[3.130279] (srvs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/srvs/msg/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[3.130359] (srvs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/srvs/srv/get_sensor_status_list__type_support.cpp.o\x1b[0m\n'}
+[3.156198] (srvs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libsrvs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.180995] (srvs) StdoutLine: {'line': b'[ 76%] Built target srvs__rosidl_typesupport_c\n'}
+[3.191967] (srvs) StdoutLine: {'line': b'[ 76%] Built target srvs\n'}
+[3.202991] (srvs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.212057] (-) TimerEvent: {}
+[3.313531] (-) TimerEvent: {}
+[3.414155] (-) TimerEvent: {}
+[3.517191] (-) TimerEvent: {}
+[3.611647] (srvs) StdoutLine: {'line': b'[ 78%] Built target srvs__py\n'}
+[3.617845] (-) TimerEvent: {}
+[3.623042] (srvs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_generator_py.dir/rosidl_generator_py/srvs/msg/_sensor_type_s.c.o\x1b[0m\n'}
+[3.623325] (srvs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_generator_py.dir/rosidl_generator_py/srvs/msg/_sensor_status_s.c.o\x1b[0m\n'}
+[3.623723] (srvs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_generator_py.dir/rosidl_generator_py/srvs/srv/_get_sensor_status_list_s.c.o\x1b[0m\n'}
+[3.699416] (srvs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/srvs/libsrvs__rosidl_generator_py.so\x1b[0m\n'}
+[3.717982] (-) TimerEvent: {}
+[3.724293] (srvs) StdoutLine: {'line': b'[ 87%] Built target srvs__rosidl_generator_py\n'}
+[3.735711] (srvs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/srvs/_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.736244] (srvs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/srvs/_srvs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.736330] (srvs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/srvs/_srvs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.807002] (srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.807204] (srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.807297] (srvs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[3.818100] (-) TimerEvent: {}
+[3.828302] (srvs) StdoutLine: {'line': b'[100%] Built target srvs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.828472] (srvs) StdoutLine: {'line': b'[100%] Built target srvs__rosidl_typesupport_c__pyext\n'}
+[3.828520] (srvs) StdoutLine: {'line': b'[100%] Built target srvs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.835390] (srvs) CommandEnded: {'returncode': 0}
+[3.918218] (-) TimerEvent: {}
+[3.939261] (srvs) JobProgress: {'identifier': 'srvs', 'progress': 'install'}
+[3.944409] (srvs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/srvs'], 'cwd': '/root/ros2_ws/build/srvs', 'env': OrderedDict([('HOSTNAME', 'e9140ebdd48b'), ('ROS_PACKAGE_PATH', '/root/ros2_ws/install/srvs/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/srvs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/srvs/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_ws/install/srvs/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/srvs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/srvs')]), 'shell': False}
+[3.949015] (srvs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.949237] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/rosidl_interfaces/srvs\n'}
+[3.949502] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs\n'}
+[3.949711] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg\n'}
+[3.949848] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_status.h\n'}
+[3.949998] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail\n'}
+[3.950108] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__functions.c\n'}
+[3.950209] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__type_support.h\n'}
+[3.950265] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__functions.h\n'}
+[3.950393] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.h\n'}
+[3.950451] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__struct.h\n'}
+[3.950557] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__functions.h\n'}
+[3.950699] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__type_support.h\n'}
+[3.950751] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__functions.c\n'}
+[3.950845] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_type.h\n'}
+[3.950966] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.951079] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv\n'}
+[3.951253] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail\n'}
+[3.951376] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__functions.h\n'}
+[3.951526] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__struct.h\n'}
+[3.951577] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__functions.c\n'}
+[3.951696] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__type_support.h\n'}
+[3.951840] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/get_sensor_status_list.h\n'}
+[3.951988] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/library_path.sh\n'}
+[3.952099] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/library_path.dsv\n'}
+[3.952319] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_c.so\n'}
+[3.952674] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_c.so" to ""\n'}
+[3.952730] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs\n'}
+[3.952899] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg\n'}
+[3.953013] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail\n'}
+[3.953062] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_fastrtps_c.h\n'}
+[3.955646] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.956857] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.956943] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv\n'}
+[3.957101] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail\n'}
+[3.957183] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_fastrtps_c.h\n'}
+[3.957344] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.957486] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.957586] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs\n'}
+[3.957730] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg\n'}
+[3.957796] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail\n'}
+[3.957850] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__traits.hpp\n'}
+[3.957938] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__builder.hpp\n'}
+[3.958050] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__traits.hpp\n'}
+[3.958117] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp\n'}
+[3.958249] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__struct.hpp\n'}
+[3.958341] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__builder.hpp\n'}
+[3.958427] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_status.hpp\n'}
+[3.958487] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_type.hpp\n'}
+[3.958545] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv\n'}
+[3.958599] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail\n'}
+[3.958706] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__struct.hpp\n'}
+[3.958763] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__traits.hpp\n'}
+[3.958849] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__builder.hpp\n'}
+[3.958915] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/get_sensor_status_list.hpp\n'}
+[3.958970] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs\n'}
+[3.959101] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg\n'}
+[3.959151] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail\n'}
+[3.959290] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.959403] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.959460] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/dds_fastrtps\n'}
+[3.959507] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.959581] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv\n'}
+[3.959620] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail\n'}
+[3.959655] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/dds_fastrtps\n'}
+[3.959691] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.959727] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.960060] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.960160] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs\n'}
+[3.960198] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg\n'}
+[3.960234] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail\n'}
+[3.960277] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_introspection_c.h\n'}
+[3.960430] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h\n'}
+[3.960579] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__type_support.c\n'}
+[3.960721] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__type_support.c\n'}
+[3.960926] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.960986] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv\n'}
+[3.961034] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail\n'}
+[3.961100] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_introspection_c.h\n'}
+[3.961138] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__type_support.c\n'}
+[3.961173] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_c.so\n'}
+[3.961447] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.961588] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_c.so\n'}
+[3.961784] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_c.so" to ""\n'}
+[3.961902] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs\n'}
+[3.961950] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg\n'}
+[3.961993] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail\n'}
+[3.962079] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__type_support.cpp\n'}
+[3.962135] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__type_support.cpp\n'}
+[3.962300] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.962477] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.962520] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv\n'}
+[3.962564] (srvs) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail\n'}
+[3.962623] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__type_support.cpp\n'}
+[3.962739] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.962781] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.963090] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.963218] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_cpp.so\n'}
+[3.963487] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.963533] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/pythonpath.sh\n'}
+[3.963671] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/pythonpath.dsv\n'}
+[3.963937] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info\n'}
+[3.963986] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.964021] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.964182] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.964283] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.964324] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs\n'}
+[3.964459] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.964619] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/_srvs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.964773] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/_srvs_s.ep.rosidl_typesupport_c.c\n'}
+[3.964828] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg\n'}
+[3.964923] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_status_s.c\n'}
+[3.965036] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_type.py\n'}
+[3.965123] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_type_s.c\n'}
+[3.965238] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/__init__.py\n'}
+[3.965445] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_status.py\n'}
+[3.965558] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv\n'}
+[3.965611] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/__init__.py\n'}
+[3.965713] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/_get_sensor_status_list_s.c\n'}
+[3.965858] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/_get_sensor_status_list.py\n'}
+[3.965984] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/libsrvs__rosidl_generator_py.so\n'}
+[3.966084] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/__init__.py\n'}
+[3.966232] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.966370] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.966529] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/_srvs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.992849] (srvs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs'...\n"}
+[3.992964] (srvs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/__init__.py'...\n"}
+[3.993003] (srvs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg'...\n"}
+[3.993038] (srvs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/__init__.py'...\n"}
+[3.993073] (srvs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_status.py'...\n"}
+[3.993108] (srvs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_type.py'...\n"}
+[3.993141] (srvs) StdoutLine: {'line': b"Listing '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv'...\n"}
+[3.993176] (srvs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/__init__.py'...\n"}
+[3.993210] (srvs) StdoutLine: {'line': b"Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/_get_sensor_status_list.py'...\n"}
+[3.996785] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.997108] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[3.997300] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.997641] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[3.997836] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.998064] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[3.998190] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_py.so\n'}
+[3.998451] (srvs) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_py.so" to ""\n'}
+[3.998585] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorType.idl\n'}
+[3.998768] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorStatus.idl\n'}
+[3.998824] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList.idl\n'}
+[3.998967] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorType.msg\n'}
+[3.999014] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorStatus.msg\n'}
+[3.999129] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList.srv\n'}
+[3.999284] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList_Request.msg\n'}
+[3.999368] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList_Response.msg\n'}
+[3.999576] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/package_run_dependencies/srvs\n'}
+[3.999813] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/parent_prefix_path/srvs\n'}
+[3.999986] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/ament_prefix_path.sh\n'}
+[4.000035] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/ament_prefix_path.dsv\n'}
+[4.000102] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/path.sh\n'}
+[4.000233] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/path.dsv\n'}
+[4.000443] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.bash\n'}
+[4.000490] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.sh\n'}
+[4.000596] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.zsh\n'}
+[4.000759] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.dsv\n'}
+[4.000909] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/package.dsv\n'}
+[4.001106] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/packages/srvs\n'}
+[4.001199] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_cExport.cmake\n'}
+[4.001274] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.001509] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.001643] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.001777] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_cppExport.cmake\n'}
+[4.001895] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.002014] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.002139] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.002264] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.002403] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cExport.cmake\n'}
+[4.002552] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.002690] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.002827] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.002969] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cppExport.cmake\n'}
+[4.003106] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.003255] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_pyExport.cmake\n'}
+[4.003423] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.003579] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.003695] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.003790] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.003909] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.004022] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.004181] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.004381] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.004502] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvsConfig.cmake\n'}
+[4.004539] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvsConfig-version.cmake\n'}
+[4.004633] (srvs) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/srvs/share/srvs/package.xml\n'}
+[4.006354] (srvs) CommandEnded: {'returncode': 0}
+[4.018307] (-) TimerEvent: {}
+[4.076748] (srvs) JobEnded: {'identifier': 'srvs', 'rc': 0}
+[4.077166] (get_sensor_status) JobStarted: {'identifier': 'get_sensor_status'}
+[4.081691] (get_sensor_status) JobProgress: {'identifier': 'get_sensor_status', 'progress': 'cmake'}
+[4.082348] (get_sensor_status) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/get_sensor_status', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/get_sensor_status'], 'cwd': '/root/ros2_ws/build/get_sensor_status', 'env': OrderedDict([('HOSTNAME', 'e9140ebdd48b'), ('ROS_PACKAGE_PATH', '/root/ros2_ws/install/srvs/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/srvs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/srvs/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_ws/install/srvs/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/get_sensor_status'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/srvs')]), 'shell': False}
+[4.119423] (-) TimerEvent: {}
+[4.124938] (get_sensor_status) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.170106] (get_sensor_status) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.175278] (get_sensor_status) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.219534] (-) TimerEvent: {}
+[4.221458] (get_sensor_status) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.227302] (get_sensor_status) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.227568] (get_sensor_status) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.227943] (get_sensor_status) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.230614] (get_sensor_status) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.286440] (get_sensor_status) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.292347] (get_sensor_status) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.292617] (get_sensor_status) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.293014] (get_sensor_status) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.295207] (get_sensor_status) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.319604] (-) TimerEvent: {}
+[4.388668] (get_sensor_status) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.419701] (-) TimerEvent: {}
+[4.448750] (get_sensor_status) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.481516] (get_sensor_status) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.485036] (get_sensor_status) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.491463] (get_sensor_status) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.501787] (get_sensor_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.515882] (get_sensor_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.520653] (-) TimerEvent: {}
+[4.571922] (get_sensor_status) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.573835] (get_sensor_status) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.620810] (-) TimerEvent: {}
+[4.639862] (get_sensor_status) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.660393] (get_sensor_status) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.700208] (get_sensor_status) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.707330] (get_sensor_status) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.720896] (-) TimerEvent: {}
+[4.756045] (get_sensor_status) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.756368] (get_sensor_status) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.803345] (get_sensor_status) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.804214] (get_sensor_status) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.821433] (-) TimerEvent: {}
+[4.921659] (-) TimerEvent: {}
+[4.946999] (get_sensor_status) StdoutLine: {'line': b'-- Found srvs: 0.0.0 (/root/ros2_ws/install/srvs/share/srvs/cmake)\n'}
+[5.005975] (get_sensor_status) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.015165] (get_sensor_status) StdoutLine: {'line': b'-- Generating done\n'}
+[5.016496] (get_sensor_status) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/get_sensor_status\n'}
+[5.021727] (get_sensor_status) CommandEnded: {'returncode': 0}
+[5.021960] (-) TimerEvent: {}
+[5.022322] (get_sensor_status) JobProgress: {'identifier': 'get_sensor_status', 'progress': 'build'}
+[5.023292] (get_sensor_status) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/get_sensor_status', '--', '-j4', '-l4'], 'cwd': '/root/ros2_ws/build/get_sensor_status', 'env': OrderedDict([('HOSTNAME', 'e9140ebdd48b'), ('ROS_PACKAGE_PATH', '/root/ros2_ws/install/srvs/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/srvs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_ws/install/srvs/lib/aarch64-linux-gnu/pkgconfig:/root/ros2_ws/install/srvs/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/get_sensor_status'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/root/ros2_ws/install/srvs')]), 'shell': False}
+[5.056021] (get_sensor_status) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/get_sensor_status_client.dir/src/client.cpp.o\x1b[0m\n'}
+[5.056601] (get_sensor_status) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/get_sensor_status_service.dir/src/service.cpp.o\x1b[0m\n'}
+[5.122165] (-) TimerEvent: {}
+[5.222441] (-) TimerEvent: {}
+[5.323942] (-) TimerEvent: {}
+[5.424253] (-) TimerEvent: {}
+[5.525276] (-) TimerEvent: {}
+[5.626624] (-) TimerEvent: {}
+[5.726978] (-) TimerEvent: {}
+[5.827324] (-) TimerEvent: {}
+[5.928218] (-) TimerEvent: {}
+[6.029567] (-) TimerEvent: {}
+[6.130036] (-) TimerEvent: {}
+[6.230566] (-) TimerEvent: {}
+[6.330895] (-) TimerEvent: {}
+[6.431229] (-) TimerEvent: {}
+[6.532953] (-) TimerEvent: {}
+[6.633499] (-) TimerEvent: {}
+[6.733829] (-) TimerEvent: {}
+[6.795748] (get_sensor_status) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.796125] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.796180] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.796217] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.796255] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.796305] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.796341] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.796374] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.796453] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.796507] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.796568] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.796602] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:1\x1b[m\x1b[K:\n'}
+[6.796635] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.796686] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:44:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kconst _sensortype_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst srvs::msg::SensorType_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[6.796742] (get_sensor_status) StderrLine: {'line': b'   44 |             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Sensor Type: %u"\x1b[m\x1b[K, \x1b[32m\x1b[Kstatus.sensortype\x1b[m\x1b[K);\n'}
+[6.796777] (get_sensor_status) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.796812] (get_sensor_status) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.796849] (get_sensor_status) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Kconst _sensortype_type {aka const srvs::msg::SensorType_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[6.796905] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:44:70:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.796939] (get_sensor_status) StderrLine: {'line': b'   44 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sensor Type: \x1b[01;36m\x1b[K%u\x1b[m\x1b[K", status.sensortype);\n'}
+[6.796974] (get_sensor_status) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.797007] (get_sensor_status) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.797042] (get_sensor_status) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kunsigned int\x1b[m\x1b[K\n'}
+[6.797074] (get_sensor_status) StderrLine: {'line': b'\n'}
+[6.798258] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid generateData(std::shared_ptr<srvs::srv::GetSensorStatusList_Request_<std::allocator<void> > >, std::shared_ptr<srvs::srv::GetSensorStatusList_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.798418] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:36:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ksrvs::msg::SensorType_<std::allocator<void> >::SensorType_(std::uniform_int_distribution<unsigned char>::result_type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.798486] (get_sensor_status) StderrLine: {'line': b'   36 |         status.sensortype = static_cast<srvs::msg::SensorType>(sensor_type_dist(gen)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.798532] (get_sensor_status) StderrLine: {'line': b'      |                                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.798733] (get_sensor_status) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__struct.hpp:20\x1b[m\x1b[K,\n'}
+[6.798789] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__struct.hpp:127\x1b[m\x1b[K,\n'}
+[6.798826] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/srv/get_sensor_status_list.hpp:7\x1b[m\x1b[K,\n'}
+[6.798862] (get_sensor_status) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:2\x1b[m\x1b[K:\n'}
+[6.798898] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:45:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ksrvs::msg::SensorType_<ContainerAllocator>::SensorType_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.798941] (get_sensor_status) StderrLine: {'line': b'   45 |   explicit \x1b[01;36m\x1b[KSensorType_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[6.798979] (get_sensor_status) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.799015] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:45:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::uniform_int_distribution<unsigned char>::result_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799056] (get_sensor_status) StderrLine: {'line': b'   45 |   explicit SensorType_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[6.799093] (get_sensor_status) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[6.799128] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:36:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ksrvs::msg::SensorType_<ContainerAllocator>::SensorType_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799165] (get_sensor_status) StderrLine: {'line': b'   36 |   explicit \x1b[01;36m\x1b[KSensorType_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[6.799200] (get_sensor_status) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.799235] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:36:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::uniform_int_distribution<unsigned char>::result_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Krosidl_runtime_cpp::MessageInitialization\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799273] (get_sensor_status) StderrLine: {'line': b'   36 |   explicit SensorType_(\x1b[01;36m\x1b[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL\x1b[m\x1b[K)\n'}
+[6.799307] (get_sensor_status) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.799348] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr srvs::msg::SensorType_<std::allocator<void> >::SensorType_(const srvs::msg::SensorType_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799384] (get_sensor_status) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KSensorType_\x1b[m\x1b[K\n'}
+[6.799419] (get_sensor_status) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.799453] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::uniform_int_distribution<unsigned char>::result_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst srvs::msg::SensorType_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799510] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr srvs::msg::SensorType_<std::allocator<void> >::SensorType_(srvs::msg::SensorType_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799546] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::uniform_int_distribution<unsigned char>::result_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Ksrvs::msg::SensorType_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.799582] (get_sensor_status) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:10:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[6.799617] (get_sensor_status) StderrLine: {'line': b'   10 | void generateData(\x1b[01;35m\x1b[Kconst std::shared_ptr<srvs::srv::GetSensorStatusList::Request> request\x1b[m\x1b[K,\n'}
+[6.799652] (get_sensor_status) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.834939] (-) TimerEvent: {}
+[6.935229] (-) TimerEvent: {}
+[7.036848] (-) TimerEvent: {}
+[7.141746] (-) TimerEvent: {}
+[7.229812] (get_sensor_status) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/get_sensor_status_service.dir/build.make:76: CMakeFiles/get_sensor_status_service.dir/src/service.cpp.o] Error 1\n'}
+[7.230100] (get_sensor_status) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/get_sensor_status_service.dir/all] Error 2\n'}
+[7.230171] (get_sensor_status) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[7.242322] (-) TimerEvent: {}
+[7.346926] (-) TimerEvent: {}
+[7.447196] (-) TimerEvent: {}
+[7.552039] (-) TimerEvent: {}
+[7.581658] (get_sensor_status) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable get_sensor_status_client\x1b[0m\n'}
+[7.652156] (-) TimerEvent: {}
+[7.684958] (get_sensor_status) StdoutLine: {'line': b'[ 75%] Built target get_sensor_status_client\n'}
+[7.685818] (get_sensor_status) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.688693] (get_sensor_status) CommandEnded: {'returncode': 2}
+[7.710242] (get_sensor_status) JobEnded: {'identifier': 'get_sensor_status', 'rc': 2}
+[7.722207] (-) EventReactorShutdown: {}

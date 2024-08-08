@@ -197,6 +197,80 @@ get_sensor_status_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_uninstall.dir/build.make CMakeFiles/get_sensor_status_uninstall.dir/build
 .PHONY : get_sensor_status_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named get_sensor_status_client
+
+# Build rule for target.
+get_sensor_status_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 get_sensor_status_client
+.PHONY : get_sensor_status_client
+
+# fast build rule for target.
+get_sensor_status_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_client.dir/build.make CMakeFiles/get_sensor_status_client.dir/build
+.PHONY : get_sensor_status_client/fast
+
+#=============================================================================
+# Target rules for targets named get_sensor_status_service
+
+# Build rule for target.
+get_sensor_status_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 get_sensor_status_service
+.PHONY : get_sensor_status_service
+
+# fast build rule for target.
+get_sensor_status_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_service.dir/build.make CMakeFiles/get_sensor_status_service.dir/build
+.PHONY : get_sensor_status_service/fast
+
+src/client.o: src/client.cpp.o
+.PHONY : src/client.o
+
+# target to build an object file
+src/client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_client.dir/build.make CMakeFiles/get_sensor_status_client.dir/src/client.cpp.o
+.PHONY : src/client.cpp.o
+
+src/client.i: src/client.cpp.i
+.PHONY : src/client.i
+
+# target to preprocess a source file
+src/client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_client.dir/build.make CMakeFiles/get_sensor_status_client.dir/src/client.cpp.i
+.PHONY : src/client.cpp.i
+
+src/client.s: src/client.cpp.s
+.PHONY : src/client.s
+
+# target to generate assembly for a file
+src/client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_client.dir/build.make CMakeFiles/get_sensor_status_client.dir/src/client.cpp.s
+.PHONY : src/client.cpp.s
+
+src/service.o: src/service.cpp.o
+.PHONY : src/service.o
+
+# target to build an object file
+src/service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_service.dir/build.make CMakeFiles/get_sensor_status_service.dir/src/service.cpp.o
+.PHONY : src/service.cpp.o
+
+src/service.i: src/service.cpp.i
+.PHONY : src/service.i
+
+# target to preprocess a source file
+src/service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_service.dir/build.make CMakeFiles/get_sensor_status_service.dir/src/service.cpp.i
+.PHONY : src/service.cpp.i
+
+src/service.s: src/service.cpp.s
+.PHONY : src/service.s
+
+# target to generate assembly for a file
+src/service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/get_sensor_status_service.dir/build.make CMakeFiles/get_sensor_status_service.dir/src/service.cpp.s
+.PHONY : src/service.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... get_sensor_status_uninstall"
 	@echo "... uninstall"
+	@echo "... get_sensor_status_client"
+	@echo "... get_sensor_status_service"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
+	@echo "... src/service.o"
+	@echo "... src/service.i"
+	@echo "... src/service.s"
 .PHONY : help
 
 

@@ -1,5 +1,7 @@
 /root/ros2_ws/build/get_sensor_status/CMakeFiles/uninstall.dir
 /root/ros2_ws/build/get_sensor_status/CMakeFiles/get_sensor_status_uninstall.dir
+/root/ros2_ws/build/get_sensor_status/CMakeFiles/get_sensor_status_client.dir
+/root/ros2_ws/build/get_sensor_status/CMakeFiles/get_sensor_status_service.dir
 /root/ros2_ws/build/get_sensor_status/CMakeFiles/test.dir
 /root/ros2_ws/build/get_sensor_status/CMakeFiles/edit_cache.dir
 /root/ros2_ws/build/get_sensor_status/CMakeFiles/rebuild_cache.dir

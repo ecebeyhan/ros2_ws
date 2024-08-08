@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found srvs: 0.0.0 (/root/ros2_ws/install/srvs/share/srvs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/get_sensor_status
+[ 50%] [32mBuilding CXX object CMakeFiles/get_sensor_status_service.dir/src/service.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/get_sensor_status_client.dir/src/client.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:1[m[K:
+[01m[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:44:55:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 5 has type ‘[01m[Kconst _sensortype_type[m[K’ {aka ‘[01m[Kconst srvs::msg::SensorType_<std::allocator<void> >[m[K’} [[01;35m[K-Wformat=[m[K]
+   44 |             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Sensor Type: %u"[m[K, [32m[Kstatus.sensortype[m[K);
+      |                                                       [01;35m[K^~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                 [32m[K|[m[K
+      |                                                                                 [32m[Kconst _sensortype_type {aka const srvs::msg::SensorType_<std::allocator<void> >}[m[K
+[01m[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:44:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   44 |    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sensor Type: [01;36m[K%u[m[K", status.sensortype);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kunsigned int[m[K
+
+[01m[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:[m[K In function ‘[01m[Kvoid generateData(std::shared_ptr<srvs::srv::GetSensorStatusList_Request_<std::allocator<void> > >, std::shared_ptr<srvs::srv::GetSensorStatusList_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:36:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksrvs::msg::SensorType_<std::allocator<void> >::SensorType_(std::uniform_int_distribution<unsigned char>::result_type)[m[K’
+   36 |         status.sensortype = static_cast<srvs::msg::SensorType>(sensor_type_dist(gen)[01;31m[K)[m[K;
+      |                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__struct.hpp:20[m[K,
+                 from [01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__struct.hpp:127[m[K,
+                 from [01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/srv/get_sensor_status_list.hpp:7[m[K,
+                 from [01m[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:2[m[K:
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksrvs::msg::SensorType_<ContainerAllocator>::SensorType_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   45 |   explicit [01;36m[KSensorType_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:45:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::uniform_int_distribution<unsigned char>::result_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kconst std::allocator<void>&[m[K’
+   45 |   explicit SensorType_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksrvs::msg::SensorType_<ContainerAllocator>::SensorType_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   36 |   explicit [01;36m[KSensorType_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:36:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::uniform_int_distribution<unsigned char>::result_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   36 |   explicit SensorType_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr srvs::msg::SensorType_<std::allocator<void> >::SensorType_(const srvs::msg::SensorType_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KSensorType_[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::uniform_int_distribution<unsigned char>::result_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Kconst srvs::msg::SensorType_<std::allocator<void> >&[m[K’
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr srvs::msg::SensorType_<std::allocator<void> >::SensorType_(srvs::msg::SensorType_<std::allocator<void> >&&)[m[K’
+[01m[K/root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::uniform_int_distribution<unsigned char>::result_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} to ‘[01m[Ksrvs::msg::SensorType_<std::allocator<void> >&&[m[K’
+[01m[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:10:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   10 | void generateData([01;35m[Kconst std::shared_ptr<srvs::srv::GetSensorStatusList::Request> request[m[K,
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/get_sensor_status_service.dir/build.make:76: CMakeFiles/get_sensor_status_service.dir/src/service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/get_sensor_status_service.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable get_sensor_status_client[0m
+[ 75%] Built target get_sensor_status_client
+gmake: *** [Makefile:146: all] Error 2

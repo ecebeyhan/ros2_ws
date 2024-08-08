@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.8)
 project(get_sensor_status)
 
+# Enforce C++11 or later
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -10,16 +14,23 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(srvs REQUIRED)
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
+# Include directories
+include_directories(include)
+
+# Add the executable for the client node
+add_executable(get_sensor_status_client src/client.cpp)
+ament_target_dependencies(get_sensor_status_client rclcpp srvs)
+
+# Add the executable for the service node
+add_executable(get_sensor_status_service src/service.cpp)
+ament_target_dependencies(get_sensor_status_service rclcpp srvs)
+
+# Install the executables
+install(TARGETS
+  get_sensor_status_client
+  get_sensor_status_service
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 ament_package()

@@ -1,3 +1,5 @@
+/root/ros2_ws/install/get_sensor_status/lib/get_sensor_status/get_sensor_status_client
+/root/ros2_ws/install/get_sensor_status/lib/get_sensor_status/get_sensor_status_service
 /root/ros2_ws/install/get_sensor_status/share/ament_index/resource_index/package_run_dependencies/get_sensor_status
 /root/ros2_ws/install/get_sensor_status/share/ament_index/resource_index/parent_prefix_path/get_sensor_status
 /root/ros2_ws/install/get_sensor_status/share/get_sensor_status/environment/ament_prefix_path.sh

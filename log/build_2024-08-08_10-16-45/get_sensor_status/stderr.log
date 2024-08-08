@@ -1,0 +1,14 @@
+[01m[K/root/ros2_ws/src/get_sensor_status/src/client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrvs/srv/getsensorstatuslist.hpp: No such file or directory
+    2 | #include [01;31m[K"srvs/srv/getsensorstatuslist.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/get_sensor_status/src/service.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksrvs/srv/getsensorstatuslist.hpp: No such file or directory
+    2 | #include [01;31m[K"srvs/srv/getsensorstatuslist.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/get_sensor_status_service.dir/build.make:76: CMakeFiles/get_sensor_status_service.dir/src/service.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/get_sensor_status_client.dir/build.make:76: CMakeFiles/get_sensor_status_client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/get_sensor_status_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/get_sensor_status_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

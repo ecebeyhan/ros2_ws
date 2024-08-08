@@ -1,0 +1,316 @@
+[0.007s] Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake /root/ros2_ws/src/srvs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.171s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.229s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.232s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.388s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.420s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.424s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.430s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.516s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.581s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.649s] -- Looking for pthread.h
+[0.697s] -- Looking for pthread.h - found
+[0.698s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.748s] -- Found Threads: TRUE  
+[0.915s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.113s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.415s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.417s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.431s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.431s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.431s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.431s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.442s] -- Found PythonExtra: .so  
+[1.470s] -- Configuring done
+[1.495s] -- Generating done
+[1.497s] [33mCMake Warning:
+[1.497s]   Manually-specified variables were not used by the project:
+[1.498s] 
+[1.498s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.498s] 
+[1.498s] [0m
+[1.498s] -- Build files have been written to: /root/ros2_ws/build/srvs
+[1.505s] Invoked command in '/root/ros2_ws/build/srvs' returned '0': /usr/bin/cmake /root/ros2_ws/src/srvs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/srvs
+[1.508s] Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake --build /root/ros2_ws/build/srvs -- -j4 -l4
+[1.535s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.540s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.548s] [  4%] Built target ament_cmake_python_copy_srvs
+[1.688s] running egg_info
+[1.689s] creating srvs.egg-info
+[1.689s] writing srvs.egg-info/PKG-INFO
+[1.689s] writing dependency_links to srvs.egg-info/dependency_links.txt
+[1.689s] writing top-level names to srvs.egg-info/top_level.txt
+[1.690s] writing manifest file 'srvs.egg-info/SOURCES.txt'
+[1.691s] reading manifest file 'srvs.egg-info/SOURCES.txt'
+[1.691s] writing manifest file 'srvs.egg-info/SOURCES.txt'
+[1.710s] [  4%] Built target ament_cmake_python_build_srvs_egg
+[1.841s] [  4%] Built target srvs__cpp
+[1.848s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.848s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.848s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.861s] [ 12%] [32mBuilding C object CMakeFiles/srvs__rosidl_generator_c.dir/rosidl_generator_c/srvs/msg/detail/sensor_type__functions.c.o[0m
+[1.984s] [ 14%] [32mBuilding C object CMakeFiles/srvs__rosidl_generator_c.dir/rosidl_generator_c/srvs/msg/detail/sensor_status__functions.c.o[0m
+[2.023s] [ 17%] [32mBuilding C object CMakeFiles/srvs__rosidl_generator_c.dir/rosidl_generator_c/srvs/srv/detail/get_sensor_status_list__functions.c.o[0m
+[2.071s] [ 19%] [32m[1mLinking C shared library libsrvs__rosidl_generator_c.so[0m
+[2.094s] [ 19%] Built target srvs__rosidl_generator_c
+[2.100s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.160s] [ 23%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srvs/msg/sensor_type__type_support.cpp.o[0m
+[2.206s] [ 25%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srvs/msg/detail/sensor_type__type_support.cpp.o[0m
+[2.236s] [ 27%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srvs/msg/detail/dds_fastrtps/sensor_type__type_support.cpp.o[0m
+[2.388s] [ 29%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srvs/msg/sensor_status__type_support.cpp.o[0m
+[2.409s] [ 31%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srvs/msg/detail/sensor_type__type_support_c.cpp.o[0m
+[2.536s] [ 34%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srvs/msg/detail/sensor_status__type_support.cpp.o[0m
+[2.593s] [ 36%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srvs/msg/detail/dds_fastrtps/sensor_status__type_support.cpp.o[0m
+[2.612s] [ 38%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srvs/srv/get_sensor_status_list__type_support.cpp.o[0m
+[2.671s] [ 40%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srvs/msg/detail/sensor_status__type_support_c.cpp.o[0m
+[2.807s] [ 42%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srvs/srv/detail/get_sensor_status_list__type_support.cpp.o[0m
+[2.814s] [ 44%] [32m[1mLinking CXX shared library libsrvs__rosidl_typesupport_cpp.so[0m
+[2.842s] [ 44%] Built target srvs__rosidl_typesupport_cpp
+[2.848s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.894s] [ 48%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srvs/srv/detail/dds_fastrtps/get_sensor_status_list__type_support.cpp.o[0m
+[2.944s] [ 51%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srvs/srv/detail/get_sensor_status_list__type_support_c.cpp.o[0m
+[3.117s] [ 53%] [32m[1mLinking CXX shared library libsrvs__rosidl_typesupport_introspection_cpp.so[0m
+[3.149s] [ 55%] [32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srvs/msg/detail/sensor_type__type_support.c.o[0m
+[3.165s] [ 55%] Built target srvs__rosidl_typesupport_introspection_cpp
+[3.177s] [ 59%] [32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srvs/msg/detail/sensor_status__type_support.c.o[0m
+[3.177s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.199s] [ 61%] [32m[1mLinking CXX shared library libsrvs__rosidl_typesupport_fastrtps_c.so[0m
+[3.201s] [ 63%] [32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srvs/srv/detail/get_sensor_status_list__type_support.c.o[0m
+[3.227s] [ 65%] [32m[1mLinking CXX shared library libsrvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.230s] [ 68%] [32m[1mLinking C shared library libsrvs__rosidl_typesupport_introspection_c.so[0m
+[3.255s] [ 68%] Built target srvs__rosidl_typesupport_introspection_c
+[3.257s] [ 68%] Built target srvs__rosidl_typesupport_fastrtps_c
+[3.280s] [ 68%] Built target srvs__rosidl_typesupport_fastrtps_cpp
+[3.395s] [ 70%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/srvs/msg/sensor_type__type_support.cpp.o[0m
+[3.395s] [ 74%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/srvs/msg/sensor_status__type_support.cpp.o[0m
+[3.395s] [ 74%] [32mBuilding CXX object CMakeFiles/srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/srvs/srv/get_sensor_status_list__type_support.cpp.o[0m
+[3.419s] [ 76%] [32m[1mLinking CXX shared library libsrvs__rosidl_typesupport_c.so[0m
+[3.445s] [ 76%] Built target srvs__rosidl_typesupport_c
+[3.456s] [ 76%] Built target srvs
+[3.469s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.874s] [ 78%] Built target srvs__py
+[3.886s] [ 80%] [32mBuilding C object CMakeFiles/srvs__rosidl_generator_py.dir/rosidl_generator_py/srvs/msg/_sensor_type_s.c.o[0m
+[3.887s] [ 82%] [32mBuilding C object CMakeFiles/srvs__rosidl_generator_py.dir/rosidl_generator_py/srvs/msg/_sensor_status_s.c.o[0m
+[3.887s] [ 85%] [32mBuilding C object CMakeFiles/srvs__rosidl_generator_py.dir/rosidl_generator_py/srvs/srv/_get_sensor_status_list_s.c.o[0m
+[3.962s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/srvs/libsrvs__rosidl_generator_py.so[0m
+[3.989s] [ 87%] Built target srvs__rosidl_generator_py
+[4.002s] [ 91%] [32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/srvs/_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.003s] [ 91%] [32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/srvs/_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.003s] [ 93%] [32mBuilding C object CMakeFiles/srvs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/srvs/_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.072s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.072s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.074s] [100%] [32m[1mLinking C shared library rosidl_generator_py/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[4.094s] [100%] Built target srvs__rosidl_typesupport_c__pyext
+[4.095s] [100%] Built target srvs__rosidl_typesupport_introspection_c__pyext
+[4.100s] [100%] Built target srvs__rosidl_typesupport_fastrtps_c__pyext
+[4.108s] Invoked command in '/root/ros2_ws/build/srvs' returned '0': /usr/bin/cmake --build /root/ros2_ws/build/srvs -- -j4 -l4
+[4.213s] Invoking command in '/root/ros2_ws/build/srvs': /usr/bin/cmake --install /root/ros2_ws/build/srvs
+[4.218s] -- Install configuration: ""
+[4.218s] -- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/rosidl_interfaces/srvs
+[4.218s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs
+[4.218s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg
+[4.218s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_status.h
+[4.218s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail
+[4.218s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__functions.c
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__type_support.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__functions.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__struct.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__functions.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__type_support.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__functions.c
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_type.h
+[4.219s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_generator_c__visibility_control.h
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__functions.h
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__struct.h
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__functions.c
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__type_support.h
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/get_sensor_status_list.h
+[4.220s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/library_path.sh
+[4.221s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/library_path.dsv
+[4.221s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_c.so
+[4.221s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_c.so" to ""
+[4.221s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs
+[4.221s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg
+[4.221s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail
+[4.221s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_fastrtps_c.h
+[4.222s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_fastrtps_c.h
+[4.222s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.222s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv
+[4.222s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail
+[4.222s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_fastrtps_c.h
+[4.222s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_c.so
+[4.222s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.222s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs
+[4.222s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg
+[4.223s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__traits.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__builder.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__traits.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__struct.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__struct.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__builder.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_status.hpp
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/sensor_type.hpp
+[4.223s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv
+[4.223s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail
+[4.223s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__struct.hpp
+[4.224s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__traits.hpp
+[4.224s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__builder.hpp
+[4.224s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/get_sensor_status_list.hpp
+[4.224s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs
+[4.224s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg
+[4.224s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail
+[4.224s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_fastrtps_cpp.hpp
+[4.224s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.224s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/dds_fastrtps
+[4.225s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.225s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv
+[4.225s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail
+[4.225s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/dds_fastrtps
+[4.225s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_fastrtps_cpp.hpp
+[4.225s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_cpp.so
+[4.225s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.225s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs
+[4.226s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg
+[4.226s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_introspection_c.h
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__type_support.c
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__type_support.c
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.226s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv
+[4.226s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_introspection_c.h
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__type_support.c
+[4.226s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_c.so
+[4.227s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_c.so" to ""
+[4.227s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_c.so
+[4.227s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_c.so" to ""
+[4.227s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs
+[4.227s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg
+[4.228s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__type_support.cpp
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__type_support.cpp
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_status__rosidl_typesupport_introspection_cpp.hpp
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/msg/detail/sensor_type__rosidl_typesupport_introspection_cpp.hpp
+[4.228s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv
+[4.228s] -- Up-to-date: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__type_support.cpp
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/include/srvs/srvs/srv/detail/get_sensor_status_list__rosidl_typesupport_introspection_cpp.hpp
+[4.228s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_cpp.so
+[4.229s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_cpp.so
+[4.229s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_typesupport_cpp.so" to ""
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/pythonpath.sh
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/pythonpath.dsv
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.229s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs-0.0.0-py3.10.egg-info/top_level.txt
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/_srvs_s.ep.rosidl_typesupport_c.c
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg
+[4.230s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_status_s.c
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_type.py
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_type_s.c
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/__init__.py
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_status.py
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/__init__.py
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/_get_sensor_status_list_s.c
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/_get_sensor_status_list.py
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/libsrvs__rosidl_generator_py.so
+[4.231s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/__init__.py
+[4.232s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.232s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.232s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.257s] Listing '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs'...
+[4.257s] Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/__init__.py'...
+[4.257s] Listing '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg'...
+[4.257s] Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/__init__.py'...
+[4.257s] Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_status.py'...
+[4.257s] Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/msg/_sensor_type.py'...
+[4.257s] Listing '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv'...
+[4.257s] Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/__init__.py'...
+[4.257s] Compiling '/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srv/_get_sensor_status_list.py'...
+[4.260s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.261s] -- Set runtime path of "/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[4.261s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.261s] -- Set runtime path of "/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[4.261s] -- Installing: /root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.262s] -- Set runtime path of "/root/ros2_ws/install/srvs/local/lib/python3.10/dist-packages/srvs/srvs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[4.262s] -- Installing: /root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_py.so
+[4.262s] -- Set runtime path of "/root/ros2_ws/install/srvs/lib/libsrvs__rosidl_generator_py.so" to ""
+[4.262s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorType.idl
+[4.262s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorStatus.idl
+[4.262s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList.idl
+[4.262s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorType.msg
+[4.262s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/msg/SensorStatus.msg
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList.srv
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList_Request.msg
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/srv/GetSensorStatusList_Response.msg
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/package_run_dependencies/srvs
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/parent_prefix_path/srvs
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/ament_prefix_path.sh
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/ament_prefix_path.dsv
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/path.sh
+[4.263s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/environment/path.dsv
+[4.264s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.bash
+[4.264s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.sh
+[4.265s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.zsh
+[4.265s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/local_setup.dsv
+[4.265s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/package.dsv
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/ament_index/resource_index/packages/srvs
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_cExport.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_cExport-noconfig.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_cppExport.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cExport.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cExport.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cExport-noconfig.cmake
+[4.266s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cppExport.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cppExport.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_pyExport.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/export_srvs__rosidl_generator_pyExport-noconfig.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/rosidl_cmake-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_targets-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.267s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvsConfig.cmake
+[4.268s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/cmake/srvsConfig-version.cmake
+[4.268s] -- Installing: /root/ros2_ws/install/srvs/share/srvs/package.xml
+[4.269s] Invoked command in '/root/ros2_ws/build/srvs' returned '0': /usr/bin/cmake --install /root/ros2_ws/build/srvs
