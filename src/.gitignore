@@ -1,0 +1,6 @@
+/build/
+/install/
+/log/
+src/get_sensor_status/src/grpc/
+src/get_sensor_status/src/gui.cpps
+src/get_sensor_status/src/communicationBridge.cpp
